@@ -22,3 +22,9 @@ async def read_item(request: Request, id: str):
     return templates.TemplateResponse(
         request=request, name="item.html", context={"id": id, "name": "This is my item"},
     )
+
+@app.get("/manage_drugs", response_class=HTMLResponse)
+async def manage_drugs(request: Request):
+    return templates.TemplateResponse(
+        request=request, name="manage_drugs.html"
+    )

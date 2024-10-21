@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy App Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 16px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            margin: 20px;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+        }
+        .profile-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome, [Customer Name]</h1>
+        <p>Manage your prescriptions, profile, and more.</p>
+    </header>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#profile">Profile Management</a>
+        <a href="#prescriptions">Prescriptions</a>
+        <a href="#orders">Orders</a>
+        <a href="#billing">Billing & Payments</a>
+        <a href="#health-records">Health Records</a>
+        <a href="#support">Help & Support</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="section">
+            <h2>Dashboard</h2>
+            <p>Summary of your account and recent notifications.</p>
+            <ul>
+                <li><strong>Upcoming Refill:</strong> [Medication Name]</li>
+                <li><strong>Order Status:</strong> [Order Status]</li>
+            </ul>
+        </section>
+
+        <!-- Profile Management Section -->
+        <section id="profile" class="section">
+            <h2>Profile Management</h2>
+            <div class="profile-item">
+                <strong>Personal Information:</strong> [Name], [Address], [Phone Number]
+                <button>Update Info</button>
+            </div>
+            <div class="profile-item">
+                <strong>Medication Info:</strong> View your current prescriptions.
+                <button>Manage Prescriptions</button>
+            </div>
+            <div class="profile-item">
+                <strong>Insurance Info:</strong> [Insurance Provider]
+                <button>Update Insurance</button>
+            </div>
+            <div class="profile-item">
+                <strong>Emergency Contacts:</strong> [Emergency Contact Info]
+                <button>Update Contacts</button>
+            </div>
+        </section>
+
+        <!-- Prescription Management Section -->
+        <section id="prescriptions" class="section">
+            <h2>Prescription Management</h2>
+            <p>Manage your current prescriptions, request refills, and more.</p>
+            <ul>
+                <li><strong>Current Prescriptions:</strong> [Prescription List]</li>
+                <li><button>Request Refill</button></li>
+                <li><button>Set Medication Reminders</button></li>
+            </ul>
+        </section>
+
+        <!-- Orders Section -->
+        <section id="orders" class="section">
+            <h2>Orders</h2>
+            <p>Order prescription medications or shop for OTC items.</p>
+            <button>Order Prescription Medications</button>
+            <button>Shop OTC Items</button>
+            <p><strong>Order Status:</strong> [Order Status]</p>
+        </section>
+
+        <!-- Billing and Payments Section -->
+        <section id="billing" class="section">
+            <h2>Billing & Payments</h2>
+            <p>View and manage your billing information.</p>
+            <ul>
+                <li><strong>Total Balance:</strong> [Balance]</li>
+                <li><button>Make Payment</button></li>
+                <li><button>View Insurance Claims</button></li>
+            </ul>
+        </section>
+
+        <!-- Health Records Section -->
+        <section id="health-records" class="section">
+            <h2>Health Records</h2>
+            <p>Access and manage your health records related to prescriptions.</p>
+            <button>Download Health Records</button>
+            <button>Upload Documents</button>
+        </section>
+
+        <!-- Help & Support Section -->
+        <section id="support" class="section">
+            <h2>Help & Support</h2>
+            <p>Have questions or need help? Contact us.</p>
+            <button>Contact Support</button>
+            <button>View FAQs</button>
+        </section>
+
+    </div>
+</body>
+</html>
