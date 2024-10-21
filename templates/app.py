@@ -52,3 +52,9 @@ async def HealthInfo_Page(request: Request):
     return templates.TemplateResponse(
         request=request, name="HealthInfo_Page.html"
     )
+
+@app.get("/registration_form", response_class=HTMLResponse)
+async def registration_form(request: Request):
+    return templates.TemplateResponse(
+        request=request, name="registration_form.html"
+    )
