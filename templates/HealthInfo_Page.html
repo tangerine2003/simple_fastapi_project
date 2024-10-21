@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% extends "index.html" %} {% block title %}Home Page{% endblock %} {% block
 content %}
 <h1>This is my Health Information and Resources Page!!!</h1>
@@ -105,4 +106,113 @@ content %}
 </body>
 </html>
 
+=======
+{% extends "index.html" %} {% block title %}Home Page{% endblock %} {% block
+content %}
+<h1>This is my Health Information and Resources Page!!!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Information and Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h3 {
+            color: #28a745;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Health Information and Resources</h2>
+
+        <!-- Articles Section -->
+        <div class="section">
+            <h3>Latest Health Articles</h3>
+            <ul>
+                <li><a href="article1.html">Managing Diabetes: Tips for Everyday Care</a></li>
+                <li><a href="article2.html">How to Lower Your Cholesterol Levels</a></li>
+                <li><a href="article3.html">Understanding Asthma and Its Triggers</a></li>
+                <li><a href="article4.html">Mental Health Awareness: Dealing with Stress</a></li>
+            </ul>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="section">
+            <h3>Frequently Asked Questions (FAQs)</h3>
+            <ul>
+                <li><strong>How can I safely dispose of expired medications?</strong>
+                    <p>Contact your local pharmacy for safe disposal options, or check for local drug take-back programs.</p>
+                </li>
+                <li><strong>What should I do if I miss a dose of my medication?</strong>
+                    <p>Consult your pharmacist or healthcare provider for instructions based on the type of medication.</p>
+                </li>
+                <li><strong>Are over-the-counter drugs safe to combine with my prescription medications?</strong>
+                    <p>Always check with your doctor or pharmacist before combining medications to avoid adverse interactions.</p>
+                </li>
+                <li><strong>How can I manage side effects from my medication?</strong>
+                    <p>If you're experiencing side effects, contact your healthcare provider for advice on how to manage or adjust your treatment.</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Trusted Resources Section -->
+        <div class="section">
+            <h3>External Resources</h3>
+            <ul>
+                <li><a href="https://www.cdc.gov" target="_blank">Centers for Disease Control and Prevention (CDC)</a></li>
+                <li><a href="https://www.fda.gov" target="_blank">U.S. Food & Drug Administration (FDA)</a></li>
+                <li><a href="https://www.who.int" target="_blank">World Health Organization (WHO)</a></li>
+                <li><a href="https://www.mayoclinic.org" target="_blank">Mayo Clinic Health Information</a></li>
+                <li><a href="https://medlineplus.gov" target="_blank">MedlinePlus: Health Information from the National Library of Medicine</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
+
+>>>>>>> 6cf230195da4d3f5b581541f67b0e85dec7e1ca1
 {% endblock %}
