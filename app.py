@@ -28,7 +28,7 @@ async def read_item(request: Request, id: str):
     # Return this dataset to the webpage
 
     # In the webpage create a loop and load the items into the table dynamically.
-    drugs_data = [
+drugs_data = [
     {"drug_name": "Albuterol", "manufacturer": "Teva Pharmaceuticals", "description": "Used to treat or prevent bronchospasm in people with reversible obstructive airway disease."},
     {"drug_name": "Amlodipine", "manufacturer": "Pfizer", "description": "Used to treat high blood pressure and prevent chest pain (angina)."},
     {"drug_name": "Amoxicillin", "manufacturer": "GSK (GlaxoSmithKline)", "description": "Antibiotic used to treat various bacterial infections."},
