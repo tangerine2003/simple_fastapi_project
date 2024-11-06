@@ -58,7 +58,7 @@ drugs_data = [
 @app.get("/manage_drugs", response_class=HTMLResponse)
 async def manage_drugs(request: Request):
     # Pass the drugs_data to the template
-    return templates.TemplateResponse("index.html", {"request": request, "table_data": drugs_data})
+    return templates.TemplateResponse("home.html", {"request": request, "table_data": drugs_data})
 
 @app.get("/login", response_class=HTMLResponse)
 async def patient_login(request: Request):
